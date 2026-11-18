@@ -2,10 +2,10 @@ cask "mediatidy" do
   version "1.0.0"
   sha256 "f27bf26c6598a7f25309e54549164febc1767e9afbc52a690fa4721e99068a63"
 
-  url "https://github.com/Ben-ReverseLab/media-tidy-mac/releases/download/v#{version}/MediaTidy-#{version}.dmg"
+  url "https://github.com/Jo-ReverseLab/media-tidy-mac/releases/download/v#{version}/MediaTidy-#{version}.dmg"
   name "MediaTidy"
   desc "Back up, deduplicate and sort photos and videos by date, camera and lens"
-  homepage "https://github.com/Ben-ReverseLab/media-tidy-mac"
+  homepage "https://github.com/Jo-ReverseLab/media-tidy-mac"
 
   livecheck do
     url :url

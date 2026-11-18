@@ -14,12 +14,12 @@ jobs:
     runs-on: macos-15-intel
     timeout-minutes: 15
     steps:
-      # Also taps this repository as ben-reverselab/tap
+      # Also taps this repository as jo-reverselab/tap
       - uses: Homebrew/actions/setup-homebrew@d482da0e602890d3160aade42e72c8556103bf04 # 2026.10.26.1
       - name: Style
-        run: brew style ben-reverselab/tap
+        run: brew style jo-reverselab/tap
       - name: Audit
         run: |
-          for cask in "$(brew --repository ben-reverselab/tap)"/Casks/*.rb; do
-            brew audit --cask --strict --online "ben-reverselab/tap/$(basename "$cask" .rb)"
+          for cask in "$(brew --repository jo-reverselab/tap)"/Casks/*.rb; do
+            brew audit --cask --strict --online "jo-reverselab/tap/$(basename "$cask" .rb)"
           done
