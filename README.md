@@ -1,12 +1,12 @@
-# Homebrew tap of Ben-ReverseLab
+# Homebrew tap of Jo-ReverseLab
 
 ```sh
-brew install --cask ben-reverselab/tap/mediatidy
+brew install --cask jo-reverselab/tap/mediatidy
 ```
 
 | Cask | App |
 |---|---|
-| `mediatidy` | [MediaTidy](https://github.com/Ben-ReverseLab/media-tidy-mac) – back up, deduplicate and sort photos and videos on macOS |
+| `mediatidy` | [MediaTidy](https://github.com/Jo-ReverseLab/media-tidy-mac) – back up, deduplicate and sort photos and videos on macOS |
 
 Updates: `brew upgrade`. The casks are updated automatically when a new release is published.
 
